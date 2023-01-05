@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Search…</string>
+    <string name="location">Location</string>
+    <string name="business_info">Business Info</string>
+    <string name="error_something_went_wrong">Oops, something went wrong!</string>
+    <string name="no_results">No results</string>
+    <string name="location_permission_title">Location Permission</string>
+    <string name="location_permission_rationale">We require your location to display nearby businesses.</string>
+    <string name="location_permission_denied">Please enable location permission from app settings.</string>
+</resources>

@@ -1,0 +1,35 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Velp"
+include ':app'
+include ':core'
+include ':core:core_data'
+include ':core:core_domain'
+include ':core:core_presentation'
+include ':home'
+include ':home:home_presentation'
+include ':home:home_domain'
+include ':search'
+include ':search:search_data'
+include ':search:search_domain'
+include ':search:search_presentation'
+include ':detail'
+include ':detail:detail_data'
+include ':detail:detail_domain'
+include ':detail:detail_presentation'
+include ':common'
+include ':location'
+include ':location:location_data'
+include ':location:location_domain'
